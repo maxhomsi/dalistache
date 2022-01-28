@@ -1,3 +1,4 @@
+
 body{
     margin: auto;
     background-size:100% 100%;
@@ -37,7 +38,7 @@ body{
     #header ul li a:hover, #header ul li.selected a {
         color: #968808;
     }
- #main img {
+ #main .grande  {
      width: 1436px;
      height: 552px;
      border: 2px solid #292929;
@@ -90,7 +91,7 @@ body{
 	background: #000;
 	color: #fff;
 	display: inline-block;
-	font-family: "Arial Black", sans-serif;
+	font-family: "Arial Black", Gadget, sans-serif;
 	font-size: 18px;
 	font-weight: normal;
 	margin: 0;
@@ -103,3 +104,89 @@ body{
 	background: #fff;
 	border: 2px solid #252525;
 }
+#main > ul {
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 24px 0 0;
+    width: 960px;
+}
+
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+#main > ul li a {
+    color: #000;
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: normal;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+#main > ul li a img {
+    border: 2px solid #1a1a1a;
+    display: block;
+    margin: 0;
+    padding: 0;
+    opacity: .8;
+    transition: 0.5s ease-in-out;
+}
+#main > ul li a:hover img {
+	opacity: 1;
+}
+#main #featured section a {
+	background: #0ba39c;
+	color: #fff;
+	display: inline-block;
+	font-size: 16px;
+	margin: 15px 0 0;
+	padding: 26px 27px 22px;
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+#main #featured section a:hover {
+	background: #1fc3bc;
+}
+#main > ul {
+	margin: 0 auto;
+	overflow: hidden;
+	padding: 24px 0 0;
+	width: 960px;
+}
+#main > ul li {
+	display: block;
+	float: left;
+	margin: 0 10px 20px;
+	padding: 0;
+	width: 300px;
+}
+#main > ul li a {
+	color: #000;
+	display: block;
+	font-family: poller_oneregular;
+	font-size: 20px;
+	font-weight: normal;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+
+}
+
+#main > ul li a span {
+	display: block;
+	margin: 0;
+	padding: 33px 0 0;
+}
+
