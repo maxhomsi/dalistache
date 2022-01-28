@@ -3,22 +3,15 @@ body{
     background-size:100% 100%;
 }
     #header {
-        margin: 0 auto;
-        padding: 44px 0 50px;
+        margin: auto;
+        padding: 30px 0 20px;
         text-align: center;
         width: 960px;
+  
     }
-    #header a.logo {
-        display: block;
-        margin: 0 auto;
-        padding: 0;
-        width: 340px;
-    }
-    #header a.logo img {
-        border: 0;
-        display: block;
-        margin: 0;
-        padding: 0;
+    #header .logo a {
+        text-decoration: none;
+        
     }
     #header ul {
         margin: 0;
@@ -42,6 +35,75 @@ body{
         text-transform: uppercase;
     }
     #header ul li a:hover, #header ul li.selected a {
-        color: #0ba39c;
+        color: #968808;
     }
- 
+ #main img {
+     width: 1436px;
+     height: 552px;
+     border: 2px solid #292929;
+	padding: 0;
+    
+ }
+ #main > section .article h2 {
+	font-family: "Arial Black", Gadget, sans-serif;
+	font-size: 25px;
+	font-weight: normal;
+	margin: 0 0 30px;
+}
+    #main #featured section span {
+        background: #252525;
+        color: #fff;
+        display: inline-block;
+        font-size: 20px;
+        margin: 7px 0;
+        padding: 12px 27px;
+    }
+    #main #featured section {
+    left: 50%;
+    margin-left: -300px;
+    margin-top: -61px;
+    padding: 0 0 0 470px;
+    position: absolute;
+    top: 50%;
+    text-align: left;
+    width: 490px;
+}
+#main #featured section h2 {
+    background: #fff;
+    color: #000;
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: normal;
+    margin: 0 0 18px;
+    padding: 23px 27px 20px;
+    text-transform: uppercase;
+}
+#main #featured section a {
+    background: #968808;
+    color: #fff;
+    display: inline-block;
+    font-size: 16px;
+    margin: 15px 0 0;
+    padding: 26px 27px 22px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+#main section ul li section a.more {
+	background: #000;
+	color: #fff;
+	display: inline-block;
+	font-family: "Arial Black", Gadget, sans-serif;
+	font-size: 18px;
+	font-weight: normal;
+	margin: 0;
+	padding: 8px 28px;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+#main section ul li section a.more:hover {
+	color: #252525;
+	background: #fff;
+	border: 2px solid #252525;
+}
