@@ -2,12 +2,20 @@
 body{
     margin: auto;
     background-size:100% 100%;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: normal;
+	line-height: 1;
+	margin: 0;
+	min-width: 960px;
+	padding: 0;
 }
     #header {
-        margin: auto;
+        margin: 0;
         padding: 30px 0 20px;
         text-align: center;
-        width: 960px;
+        width: 100%;
+        min-width: 960px;
   
     }
     #header .logo a {
@@ -39,11 +47,11 @@ body{
         color: #968808;
     }
  #main .grande  {
-     width: 1436px;
-     height: 552px;
+     
      border: 2px solid #292929;
-	padding: 0;
-    
+     text-align: center;
+     width: 100%
+   
  }
  
     #main #featured section span {
@@ -64,6 +72,7 @@ body{
     top: 50%;
     text-align: left;
     width: 490px;
+    display: block;
 }
 #main #featured section h2 {
     background: #fff;
@@ -138,8 +147,9 @@ body{
 
 #footer {
 	background: #252525;
-	margin: 0;
+	margin: auto;
 	padding: 36px 0 42px;
+    width: 100%;
     
 }
 #footer section {
