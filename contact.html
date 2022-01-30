@@ -5,7 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DalisTache</title>
-    <link rel="stylesheet" href="./styles/contact.css">
+    <link rel="stylesheet" href="./styles/style.css">
+	<link rel="stylesheet" type="text/css" href="./styles/mobile.css" media="screen and (max-width : 650px)">
+	<script type="text/javascript" src="./js/mobile.js"></script>
+	
     <link rel="preconnect" href="https://fonts.googleapis.com">
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -14,11 +17,9 @@
 </head>
 <body background="./images/fundo.jpg">
     <header id="header">
-        <image >
-            <a href="./index.html"><img src="./images/logo.png" width="340x93" alt="DalisTache Styles"></a>
-    </image>
-    <section id="navigation">
-<ul >
+	<a href="./index.html" class="logo"><img src="./images/logo.png"  alt="DalisTache Styles"></a>
+	  <ul id="navigation">
+
         <li>
             <a href="index.html">home</a>
         </li>
@@ -39,9 +40,10 @@
 </header>
    <main>
 
-    <section id="body">
+    <section id="main">
+        <h1><span>let's keep in touch</span></h1>
         <div class="contact_form">
-		<h1><span>let's keep in touch</span></h1>
+		
 		<form action="results.html"  method="GET" enctype="multipart/form-data">
 			<input type="text" name="name" id="nome" value="name"> 
 			<input type="text" name="address" id="address" value="address">
@@ -51,9 +53,6 @@
 			<input type="submit"  value="send">
 		</form>
     </div>
-
-
-
         
     </section>
 
