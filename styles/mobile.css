@@ -11,7 +11,7 @@ body {
 }
 #header a.logo img {
 	width: auto;
-	margin-left: 85px;
+	margin-left: 25px;
 }
 #mobile-navigation {
 	background: url(/images/menu.png) no-repeat 0 0;
