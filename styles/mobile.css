@@ -1,4 +1,3 @@
-/* Website Template by freewebsitetemplates.com */
 body {
 	min-width: 0;
 }
@@ -11,10 +10,11 @@ body {
 	width: 80%;
 }
 #header a.logo img {
-	width: 100%;
+	width: auto;
+	margin-left: 85px;
 }
 #mobile-navigation {
-	background: url(../images/mobile-menu.png) no-repeat 0 0;
+	background: url(/images/menu.png) no-repeat 0 0;
 	display: block;
 	height: 50px;
 	margin: 30px auto 0;
@@ -42,16 +42,16 @@ body {
 	border: 0;
 }
 #header ul li a {
-	background: rgba(11, 163, 156, 0.9);
+	background: rgba(134, 121, 2, 0.9);
 	color: #fff;
 	display: block;
-	font-family: Arial, Helvetica, sans-serif;
+	font-family: 'Poller One', cursive;
 	font-size: 16px;
 	font-weight: normal;
 	height: 49px;
 	line-height: 49px;
-	padding: 0 15px;
-	text-align: left;
+	
+	text-align: center;
 }
 #header ul li a:hover, #header ul li.selected a {
 	background: rgba(0, 0, 0, 0.9);
@@ -70,7 +70,7 @@ body {
 	text-indent: 15px;
 }
 #header ul li span {
-	background: rgba(11, 163, 156, 0.9) url(../images/mobile-expand.png) no-repeat 0 0;
+	background: rgba(134, 121, 2, 0.9) url(https://freewebsitetemplates.com/preview/mustacheenthusiast/images/mobile-expand.png) no-repeat 0 0;
 	border-left: 1px solid #fff;
 	display: block;
 	height: 49px;
@@ -79,44 +79,44 @@ body {
 	top: 0;
 	width: 50px;
 }
-#section {
+#main {
 	width: 100%;
 }
-#section h1 {
+#main h1 {
 	display: block;
 	font-size: 20px;
 	margin: 0 auto;
 	width: 90%;
 }
-#section h1 span {
+#main h1 span {
 	display: block;
 	padding: 3%;
 	width: 94%;
 }
-#section > section {
+#main > section {
 	padding: 0 5%;
 	width: 90%;
 }
-#section > section img {
+#main > section img {
 	margin: 24px 0 30px;
 	width: 98%
 }
-#section > section .article {
+#main > section .article {
 	padding: 0;
 	width: 100%;
 }
-#section > section .article h2, #section > section .article h4 {
+#main > section .article h2, #main > section .article h4 {
 	font-size: 18px;
 	font-weight: bold;
 }
-#section #featured {
+#main #featured {
 	overflow: hidden;
 	margin: 0 0 20px
 }
-#section #featured img {
+#main #featured img {
 	min-width: 960px;
 }
-#section #featured section {
+#main #featured section {
 	left: 0;
 	margin: 0;
 	padding: 0 2%;
@@ -125,87 +125,87 @@ body {
 	text-align: left;
 	width: 96%;
 }
-#section #featured section h2 {
+#main #featured section h2 {
 	font-size: 14px;
 	font-weight: normal;
 	margin: 50px 0 10px;
 	padding: 8px 5px;
 }
-#section #featured section span {
+#main #featured section span {
 	display: block;
 	font-size: 14px;
 	margin: 10px 0;
 	padding: 10px;
 }
-#section #featured section a {
+#main #featured section a {
 	font-size: 14px;
 	margin: 5px 0 0;
 	padding: 10px;
 }
-#section > ul {
+#main > ul {
 	overflow: visible;
 	padding: 0 5%;
 	width: 90%;
 }
-#section ul.gallery {
+#main ul.gallery {
 	padding: 5% 0;
 	overflow: hidden;
 	width: 100%;
 }
-#section > ul li {
+#main > ul li {
 	float: none;
 	margin: 0;
 	width: 100%;
 }
-#section ul.gallery li {
+#main ul.gallery li {
 	float: left;
 	margin: 0 0 5% 5%;
 	width: 42%;
 }
-#section > ul li a img {
+#main > ul li a img {
 	width: 98%;
 }
-#section > ul li a span {
+#main > ul li a span {
 	padding: 15px 0;
 }
-#section section ul {
+#main section ul {
 	margin: 0;
 	padding: 20px 0 0;
 	width: 100%;
 }
-#section section ul li {
+#main section ul li {
 	overflow: visible;
 	padding: 0 0 20px;
 	width: 99%;
 }
-#section section ul li .figure {
+#main section ul li .figure {
 	border: 0;
 	display: block;
 	float: none;
 	margin: 0 0 20px;
 	width: 100%;
 }
-#section section ul li .figure img {
+#main section ul li .figure img {
 	width: 100%;
 }
-#section section ul li section {
+#main section ul li section {
 	float: none;
 	padding: 0;
 	width: 100%;
 }
-#section section ul li section a.more:hover {
+#main section ul li section a.more:hover {
 	height: 14px;
 	line-height: 14px;
 }
-#section form {
+#main form {
 	width: 100%;
 }
-#section form input, #section form textarea {
+#main form input, #main form textarea {
 	margin: 0 0 20px;
 	padding: 10px;
 	width: 84%;
 }
-#section form #send {
+#main form #send {
 	padding: 10px;
 }
 #footer {
