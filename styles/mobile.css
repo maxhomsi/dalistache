@@ -14,7 +14,7 @@ body {
 	margin-left: 25px;
 }
 #mobile-navigation {
-	background: url("/images/menu.png") no-repeat 0 0;
+	background: url("./images/menu.png") no-repeat 0 0;
 	display: block;
 	height: 50px;
 	margin: 30px auto 0;
