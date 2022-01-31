@@ -7,11 +7,15 @@ body{
 	margin: 0;
 	min-width: 960px;
 	padding: 0;
+	background-image: url(/images/bigode.jpg);
+	background-size: cover;
+	background-size: auto;
+   
   
     }
     
     p {
-        color: #252525;
+        color: #282529;
         line-height: 24px;
         margin: 0;
         padding: 0;
@@ -59,7 +63,7 @@ body{
 	padding: 0 19px;
 }
     #header ul li a {
-        color: #252525;
+        color: #075023;
         display: inline-block;
         font-family: "Arial Black", Gadget, sans-serif;
         font-size: 14px;
@@ -70,7 +74,7 @@ body{
         text-transform: uppercase;
     }
     #header ul li a:hover, #header ul li.selected a {
-        color: #968808;
+        color: #c407aa;
     }
     #main {
         margin: 0;
@@ -282,7 +286,7 @@ body{
     display: block;
     margin: 0;
     padding: 0;
-    opacity: .8;
+    opacity: .9;
     transition: 0.5s ease-in-out;
 }
 #main > ul li a:hover img {
