@@ -29,7 +29,7 @@ window.onload = function(){
 		var b = sub.getAttribute('style');
 		if(b){
 			sub.removeAttribute('style');
-			getElm[i].lastChild.style.backgroundImage='url(./images/menu.png)';
+			getElm[i].lastChild.style.backgroundImage='url(/images/menu.png)';
 			getElm[i].lastChild.style.backgroundColor='rgba(11, 163, 156, 0.7)';
 		} else {
 			sub.style.display='block';
