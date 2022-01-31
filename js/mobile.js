@@ -33,7 +33,7 @@ window.onload = function(){
 			getElm[i].lastChild.style.backgroundColor='rgba(11, 163, 156, 0.7)';
 		} else {
 			sub.style.display='block';
-			getElm[i].lastChild.style.backgroundImage='url(./images/close.png)';
+			getElm[i].lastChild.style.backgroundImage='url(/images/close.png)';
 			getElm[i].lastChild.style.backgroundColor='rgba(0,0,0,0.8)';
 		}
 	};
