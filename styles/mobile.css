@@ -5,7 +5,7 @@ body {
 	padding: 20px 0;
 	position: relative;
 	width: 100%;
-	z-index: -1;
+	
 }
 #header a.logo {
 	width: 80%;
@@ -15,7 +15,7 @@ body {
 	margin-left: 25px;
 }
 #mobile-navigation {
-	background: url("/images/menu.png");
+	background: url("./images/menu.png");
 	display: block;
 	height: 50px;
 	margin: 30px auto 0;
