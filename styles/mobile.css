@@ -5,6 +5,7 @@ body {
 	padding: 20px 0;
 	position: relative;
 	width: 100%;
+	display: block;
 }
 #header a.logo {
 	width: 80%;
